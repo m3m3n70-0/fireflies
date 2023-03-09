@@ -1,12 +1,16 @@
 <script>
-	import Navbar from './components/Navbar.svelte';
+	// import Dogtag from './components/Dogtag.svelte';
+	import Starting from './components/Starting.svelte'; 
+	import Arrow from './components/Arrow.svelte';
 	
 </script>
 
-<Navbar />
+<Starting />
 
-	
+<!-- <Dogtag /> -->
 
+	 
+<Arrow />
 <style>
 
 </style>
