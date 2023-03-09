@@ -15,11 +15,12 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        animation: fadeIn 5s;
-        -webkit-animation: fadeIn 5s;
-        -moz-animation: fadeIn 5s;
-        -o-animation: fadeIn 5s;
-        -ms-animation: fadeIn 5s;
+        animation: fadeIn 8s;
+        -webkit-animation: fadeIn 8s;
+        -moz-animation: fadeIn 8s;
+        -o-animation: fadeIn 8s;
+        -ms-animation: fadeIn 8s;
+        background-color: black;
     }
 
     @keyframes fadeIn {

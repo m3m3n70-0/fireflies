@@ -8,7 +8,7 @@
 
 <style>
     .arrow img {
-        position: absolute;
+        position: fixed;
         bottom: 2.5%;
         right: 0;
         width: 5%;
