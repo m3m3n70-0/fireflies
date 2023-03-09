@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
     import { onMount } from 'svelte';
 
     let video;
@@ -51,7 +51,6 @@
   #dogtag {
     height: 150vh;
     width: 100vw;
-    background-color: #000;
   }
   #dogtag h1 {
     color: #fff;
@@ -77,4 +76,4 @@
 
   }
 
-</style> -->
+</style>
