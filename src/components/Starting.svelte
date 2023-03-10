@@ -7,6 +7,11 @@
     </div>
 </section>
 
+<!-- <audio controls id="audio">
+  <source src="./img/background-music.mp3" type="audio/mpeg">
+</audio> -->
+
+
 <style>
     #start .background {
         height: 100vh;
@@ -21,6 +26,12 @@
         -o-animation: fadeIn 8s;
         -ms-animation: fadeIn 8s;
         background-color: black;
+    }
+
+    #audio {
+        position: absolute;
+        top: 2%;
+        right: 2%;
     }
 
     @keyframes fadeIn {

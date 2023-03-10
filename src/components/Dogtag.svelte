@@ -1,55 +1,30 @@
 <script>
-    import { onMount } from 'svelte';
 
-    let video;
-    let videoContainer;
-
-    onMount(() => {
-        video = document.getElementById('video');
-        window.addEventListener('scroll', () => {
-            let frameNumber = window.pageYOffset / 1000; 
-            video.currentTime = frameNumber;
-        });      
-        
-        videoContainer = document.getElementById('dogtag');
-        
-        window.addEventListener('scroll', () => {
-
-            let frameNumber = window.pageYOffset / 1000;
-
-            if (frameNumber > 0.5) {
-                videoContainer.style.backgroundColor = '#fff';
-            } if (frameNumber < 0.5) {
-                videoContainer.style.backgroundColor = 'red';
-            }
-            
-        });
-
-
-    });    
 </script>
+
 
 <section id="dogtag">
   <div class="dog-wrapper">
   <div class="dogtag-text">
     <h1>When you're lost in the darkness</h1>
-    <h1>look for the light</h1>
+    <h1 id="porp">look for the light</h1>
   </div>
 
-  <video id="video">
-      <source src="img/dogtag.mp4" type="video/mp4">
+  <video autoplay muted loop id="video">
+      <source src="img/dogtag-loop.mp4" type="video/mp4">
   </video>
+  
 </div>
 </section>
 
-<section>
-  <h1>TEST</h1>
-  <h1>TEST</h1>
-</section>
 
 <style>
+  #porp{
+    color: #fff;
+    text-shadow: 0 0 5px #e9b70b, 0 0 10px #e9b70b, 0 0 20px #e9b70b, 0 0 40px #e9b70b;
+  }
   #dogtag {
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
   }
   #dogtag h1 {
@@ -75,5 +50,4 @@
     width: 100%;
 
   }
-
 </style>

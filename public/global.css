@@ -9,6 +9,7 @@ a{text-decoration: none; cursor: pointer;}
 a:hover{opacity: 70%;}
 li{list-style: none;}
 h1,h2,h3,h4,h5,h6,p,a{color: #fff;}
+h1{font-family: 'compacta';}
 
 body{
     background-image: url('./img/fireflies.gif');
